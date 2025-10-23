@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的旅遊分享</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>🌍 我的旅遊分享網站</h1>
+        <nav>
+            <a href="#about">關於我</a>
+            <a href="#gallery">旅遊相簿</a>
+            <a href="#video">我的影片</a>
+            <a href="#stats">統計圖表</a>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <h2>關於我</h2>
+        <p>嗨，我是熱愛旅遊與拍照的探索者！喜歡記錄世界的每一刻。這個網站將分享我的旅遊經驗與統計資料。</p>
+    </section>
+
+    <section id="gallery" class="section">
+        <h2>旅遊相簿</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60" alt="海灘">
+        </div>
+    </section>
+
+    <section id="video" class="section">
+        <h2>我的旅遊影片</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Scxs7L0vhZ4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="stats" class="section">
+        <h2>旅遊統計圖表</h2>
+        <canvas id="myChart"></canvas>
+    </section>
+
+    <footer>
+        <p>© 2025 我的旅遊分享網站 | 設計風格：科技藍黑風</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
